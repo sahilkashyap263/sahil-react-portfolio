@@ -124,7 +124,7 @@ export default function Hero() {
             <Linkedin className="w-5 h-5" />
             <span className="font-mono text-sm">LinkedIn</span>
           </a>
-          <span className="text-muted/30">|</span>
+          {/* <span className="text-muted/30">|</span> */}
           {/* <a
             href={`mailto:${personalInfo.email}`}
             className="group flex items-center gap-2 text-muted hover:text-primary transition-colors"

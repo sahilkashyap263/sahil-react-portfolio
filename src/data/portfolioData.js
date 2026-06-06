@@ -4,7 +4,8 @@ export const personalInfo = {
   email: "kashyapsahil263.136@gmail.com",
   github: "https://github.com/sahilkashyap263",
   linkedin: "https://linkedin.com/in/sahil-kashyap263",
-  resume: import.meta.env.BASE_URL + "Sahil_General_CV.pdf",
+  // resume: import.meta.env.BASE_URL + "Sahil_General_CV.pdf",
+  resume: "/sahil-react-portfolio/Sahil_General_CV.pdf",
   university: "Lovely Professional University",
   location: "India",
 };
@@ -33,7 +34,7 @@ export const projects = [
     tech: ["Python", "TensorFlow", "OpenCV", "CNN"],
     github: "https://github.com/sahilkashyap263/Wildlife-Species-Classifier",
     live: null,
-    image: "/WLDS.png",  // ← CORRECT: just the filename, leading slash
+    image: "/sahil-react-portfolio/WLDS.png",
     color: "#22c55e",
   },
   {
@@ -44,7 +45,7 @@ export const projects = [
     tech: ["Python", "OpenCV", "MediaPipe", "Pygame"],
     github: "https://github.com/sahilkashyap263/Hand-Tracking-Snake-Game",
     live: null,
-    image: "/SnakeProject.png",  // ← CORRECT: just the filename, leading slash
+    image: "/sahil-react-portfolio/SnakeProject.png",
     color: "#f97316",
   },
 ];

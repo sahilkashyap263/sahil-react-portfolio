@@ -125,13 +125,13 @@ export default function Hero() {
             <span className="font-mono text-sm">LinkedIn</span>
           </a>
           <span className="text-muted/30">|</span>
-          <a
+          {/* <a
             href={`mailto:${personalInfo.email}`}
             className="group flex items-center gap-2 text-muted hover:text-primary transition-colors"
           >
             <Mail className="w-5 h-5" />
             <span className="font-mono text-sm">Email</span>
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Resume download button */}

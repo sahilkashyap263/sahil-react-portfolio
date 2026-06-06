@@ -139,7 +139,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.4 }}
-          href="/Sahil_General_CV.pdf"
+          href={personalInfo.resume}
           download
           className="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-full border border-muted/30 text-muted hover:text-primary hover:border-primary hover:bg-primary/5 transition-all font-mono text-sm"
         >

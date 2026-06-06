@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "kashyapsahil263.136@gmail.com",
   github: "https://github.com/sahilkashyap263",
   linkedin: "https://linkedin.com/in/sahil-kashyap263",
-  resume: "/Sahil_General_CV.pdf",
+  resume: import.meta.env.BASE_URL + "Sahil_General_CV.pdf",
   university: "Lovely Professional University",
   location: "India",
 };
